@@ -1,0 +1,30 @@
+html{
+  background-color:#FFDAB9;
+}
+
+h1 {
+  /*線の種類（実線） 太さ 色*/
+  border-bottom: solid 3px black;
+  font: 200%;
+}
+
+ul {
+  padding: 0;
+  position: relative;
+}
+
+li {
+    display: inline-block;
+}
+
+input#submit_button {
+      padding: 15px 40px;
+      font-size: 1.2em;
+      // 背景色を黒に指定
+      background-color: #000;
+      // 文字色を白に指定
+      color: #fff;
+      // submitボタンのを枠を非表示にする
+      border-style: none;
+}
+  
