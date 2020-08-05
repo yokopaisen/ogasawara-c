@@ -27,3 +27,4 @@ try {
 } catch (PDOException $e) {
   echo "Can't connect to the database: " . h($e->getMessage());
 }
+
